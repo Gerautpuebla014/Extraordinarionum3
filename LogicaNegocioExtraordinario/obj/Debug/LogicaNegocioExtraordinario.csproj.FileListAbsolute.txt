@@ -1,0 +1,11 @@
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\bin\Debug\LogicaNegocioExtraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\bin\Debug\LogicaNegocioExtraordinario.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\bin\Debug\AccesoDatosextraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\bin\Debug\EntidadesExtraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\bin\Debug\AccesoDatosextraordinario.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\bin\Debug\EntidadesExtraordinario.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\obj\Debug\LogicaNegocioExtraordinario.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\obj\Debug\LogicaNegocioExtraordinario.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\obj\Debug\LogicaNegocioExtraordinario.csproj.CopyComplete
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\obj\Debug\LogicaNegocioExtraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\LogicaNegocioExtraordinario\obj\Debug\LogicaNegocioExtraordinario.pdb

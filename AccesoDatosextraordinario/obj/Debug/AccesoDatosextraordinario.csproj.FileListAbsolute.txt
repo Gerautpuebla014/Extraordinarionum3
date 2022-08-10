@@ -1,0 +1,6 @@
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\AccesoDatosextraordinario\bin\Debug\AccesoDatosextraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\AccesoDatosextraordinario\bin\Debug\AccesoDatosextraordinario.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\AccesoDatosextraordinario\obj\Debug\AccesoDatosextraordinario.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\AccesoDatosextraordinario\obj\Debug\AccesoDatosextraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\AccesoDatosextraordinario\obj\Debug\AccesoDatosextraordinario.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\AccesoDatosextraordinario\obj\Debug\AccesoDatosextraordinario.csproj.AssemblyReference.cache

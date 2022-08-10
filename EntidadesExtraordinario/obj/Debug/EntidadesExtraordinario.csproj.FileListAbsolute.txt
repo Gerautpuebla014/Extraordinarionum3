@@ -1,0 +1,6 @@
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\EntidadesExtraordinario\bin\Debug\EntidadesExtraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\EntidadesExtraordinario\bin\Debug\EntidadesExtraordinario.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\EntidadesExtraordinario\obj\Debug\EntidadesExtraordinario.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\EntidadesExtraordinario\obj\Debug\EntidadesExtraordinario.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\EntidadesExtraordinario\obj\Debug\EntidadesExtraordinario.dll
+C:\Users\Lenovo_AIO_11\Desktop\Extraordinario\EntidadesExtraordinario\obj\Debug\EntidadesExtraordinario.pdb
