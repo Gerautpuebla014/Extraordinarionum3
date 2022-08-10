@@ -288,5 +288,19 @@ namespace LogicaNegocioExtraordinario
             return salida;
         }
         //Consultas especificas
+        public DataTable DuenoObra(string Num, ref string mensaje)
+        {
+          string consulta = "execute duenoporobra" + "'" +  Num + "';" ;
+            DataSet obtener = null;
+            DataTable salida = null;
+            obtener = operacion.ConsultaDataSet(consulta, operacion.Abrirconexion(ref mensaje), ref mensaje);
+
+            if (obtener != null)
+            {
+                salida = obtener.Tables[0];
+            }
+            return salida;
+        }
+         
     }
 }

@@ -122,5 +122,16 @@ namespace Extraordinario03
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
             }
         }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            string m = "";
+            string md = "";
+            GridView6.DataSource = objBL.DuenoObra(Convert.ToString(GridView5.Rows[GridView5.SelectedIndex].Cells[1].Text),ref m);
+            GridView6.DataBind();
+            TextBox9.Text = m;
+            md = objBL.MiMessageBox("CONSULTA CORRECTA", m, 2);
+            Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+        }
     }
 }

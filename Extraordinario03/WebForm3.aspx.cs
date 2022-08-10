@@ -89,46 +89,6 @@ namespace Extraordinario03
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string md = "";
-            string m = "";
-            if (GridView3.SelectedIndex >= 0)
-            {
-                if (GridView1.SelectedIndex >= 0)
-                {
-
-                    if (GridView2.SelectedIndex >= 0)
-                    {
-
-                        string z = "";
-
-                        objBL.InsertaraProveeObra(TextBox1.Text, TextBox2.Text, Convert.ToInt32(TextBox3.Text), Convert.ToDateTime(TextBox4.Text), Convert.ToDouble(TextBox4.Text),Convert.ToInt16(GridView1.Rows[GridView1.SelectedIndex].Cells[1].Text), Convert.ToInt16(GridView2.Rows[GridView2.SelectedIndex].Cells[1].Text), Convert.ToInt16(GridView3.Rows[GridView3.SelectedIndex].Cells[1].Text), ref z);
-                        TextBox6.Text = z;
-                        md = objBL.MiMessageBox("CONSULTA CORRECTA", z, 2);
-                        Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-                    }
-                    else
-                    {
-                        TextBox6.Text = "Consulta Incorrecta";
-                        md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
-                        TextBox6.Text = m;
-                        Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-                    }
-                }
-                else
-                {
-                    TextBox6.Text = "Consulta Incorrecta";
-                    md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
-                    TextBox6.Text = m;
-                    Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-                }
-            }
-            else
-            {
-                TextBox6.Text = "Consulta Incorrecta";
-                md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
-                TextBox6.Text = m;
-                Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-            }
             
         }
 
@@ -163,6 +123,51 @@ namespace Extraordinario03
                 TextBox9.Text = m;
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
             }
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            string md = "";
+            string m = "";
+            if (GridView3.SelectedIndex >= 0)
+            {
+                if (GridView1.SelectedIndex >= 0)
+                {
+
+                    if (GridView2.SelectedIndex >= 0)
+                    {
+
+                        string z = "";
+
+                        objBL.InsertaraProveeObra(TextBox1.Text, TextBox2.Text, Convert.ToInt32(TextBox3.Text), Convert.ToDateTime(TextBox4.Text), Convert.ToDouble(TextBox4.Text), Convert.ToInt16(GridView1.Rows[GridView1.SelectedIndex].Cells[1].Text), Convert.ToInt16(GridView2.Rows[GridView2.SelectedIndex].Cells[1].Text), Convert.ToInt16(GridView3.Rows[GridView3.SelectedIndex].Cells[1].Text), ref z);
+                        TextBox6.Text = z;
+                        md = objBL.MiMessageBox("CONSULTA CORRECTA", z, 2);
+                        Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+                    }
+                    else
+                    {
+                        TextBox6.Text = "Consulta Incorrecta";
+                        md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
+                        TextBox6.Text = m;
+                        Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+                    }
+                }
+                else
+                {
+                    TextBox6.Text = "Consulta Incorrecta";
+                    md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
+                    TextBox6.Text = m;
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+                }
+            }
+            else
+            {
+                TextBox6.Text = "Consulta Incorrecta";
+                md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
+                TextBox6.Text = m;
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+            }
+
         }
     }
 }

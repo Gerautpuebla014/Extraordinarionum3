@@ -109,7 +109,9 @@
                 <SortedDescendingHeaderStyle BackColor="#00547E" />
             </asp:GridView>
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Insertar Proovedor-Obra" />
+            <br />
+            <br />
+            <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="insertar" Width="257px" />
             <br />
             <br />
             <asp:TextBox ID="TextBox6" runat="server" Width="427px"></asp:TextBox>

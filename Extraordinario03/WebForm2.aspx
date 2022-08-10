@@ -60,6 +60,7 @@
             Fecha de termino
             <asp:TextBox ID="TextBox4" runat="server" Width="201px"></asp:TextBox>
             <br />
+            <asp:Button ID="Button5" runat="server" Text="Button" />
             <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
@@ -93,7 +94,9 @@
                 <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
             </asp:GridView>
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Insertar Obra" />
+            <br />
+            <br />
+            <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Insertar Obra Nueva" />
             <br />
             <br />
             <asp:TextBox ID="TextBox5" runat="server" Width="436px"></asp:TextBox>
@@ -162,7 +165,7 @@
                 <SortedDescendingHeaderStyle BackColor="#4870BE" />
             </asp:GridView>
             <br />
-            <asp:Button ID="Button4" runat="server" Text="Eliminar Material" />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Eliminar Material" />
             <br />
             <br />
             <asp:TextBox ID="TextBox8" runat="server" Width="622px"></asp:TextBox>

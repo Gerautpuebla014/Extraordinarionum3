@@ -75,36 +75,7 @@ namespace Extraordinario03
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string md = "";
-            string m = "";
-            if (GridView1.SelectedIndex >= 0)
-            {
-
-                if (GridView2.SelectedIndex >= 0)
-                {
-
-                    string z = "";
-
-                    objBL.InsertarObra(TextBox1.Text, TextBox2.Text,Convert.ToDateTime( TextBox3.Text), Convert.ToDateTime(TextBox4.Text), Convert.ToInt16(GridView1.Rows[GridView1.SelectedIndex].Cells[1].Text), Convert.ToInt16(GridView2.Rows[GridView2.SelectedIndex].Cells[1].Text), ref z);
-                    TextBox4.Text = z;
-                    md = objBL.MiMessageBox("CONSULTA CORRECTA", z, 2);
-                    Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-                }
-                else
-                {
-                    TextBox5.Text = "Consulta Incorrecta";
-                    md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
-                    TextBox5.Text = m;
-                    Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-                }
-            }
-            else
-            {
-                TextBox5.Text = "Consulta Incorrecta";
-                md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
-                TextBox5.Text = m;
-                Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
-            }
+            
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -158,6 +129,40 @@ namespace Extraordinario03
                 TextBox8.Text = "Consulta Incorrecta";
                 md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
                 TextBox8.Text = m;
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+            }
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            string md = "";
+            string m = "";
+            if (GridView1.SelectedIndex >= 0)
+            {
+
+                if (GridView2.SelectedIndex >= 0)
+                {
+
+                    string z = "";
+
+                    objBL.InsertarObra(TextBox1.Text, TextBox2.Text, Convert.ToDateTime(TextBox3.Text), Convert.ToDateTime(TextBox4.Text), Convert.ToInt16(GridView1.Rows[GridView1.SelectedIndex].Cells[1].Text), Convert.ToInt16(GridView2.Rows[GridView2.SelectedIndex].Cells[1].Text), ref z);
+                    TextBox4.Text = z;
+                    md = objBL.MiMessageBox("CONSULTA CORRECTA", z, 2);
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+                }
+                else
+                {
+                    TextBox5.Text = "Consulta Incorrecta";
+                    md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
+                    TextBox5.Text = m;
+                    Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+                }
+            }
+            else
+            {
+                TextBox5.Text = "Consulta Incorrecta";
+                md = objBL.MiMessageBox("No se pudo Insertar correctamente", m, 3);
+                TextBox5.Text = m;
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
             }
         }
